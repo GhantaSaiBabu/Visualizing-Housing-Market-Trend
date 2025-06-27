@@ -1,60 +1,54 @@
 # 🏠 Visualizing Housing Market Trends
 
-A data analytics and visualization project that uncovers insights into housing sales trends using Tableau.  
-Built as part of the **SmartBridge x AICTE SmartIntern 2025** internship in the **Data Analytics with Tableau** domain.
+[![Live Demo](https://img.shields.io/badge/View-Live%20Demo-brightgreen)](https://visualizing-housing-market-trend.onrender.com/)
+[![Tableau Dashboard](https://img.shields.io/badge/View-Tableau_Dashboard-orange)](https://public.tableau.com/views/Dashboard_17509225202630/Dashboard4)
+[![Tableau Story](https://img.shields.io/badge/Explore-Tableau_Story-blueviolet)](https://public.tableau.com/app/profile/ghanta.saibabu/viz/story-1_17509334098390/Story3)
 
 ---
 
-## 🌐 Live Website  
-👉 [Click to View Dashboard](https://visualizing-housing-market-trend.onrender.com/)
+## 📌 Overview
+
+This project analyzes how house features such as renovation status, number of bedrooms, bathrooms, and age affect sale prices.  
+Developed as part of the **SmartBridge x AICTE SmartIntern 2025** program using **Tableau**, **Python (Flask)**, and **Render**.
 
 ---
 
-## 📌 Project Summary
+## 🔍 Key Features
 
-This project focuses on analyzing how home features like **renovation status**, **number of bathrooms**, **bedrooms**, and **floors** impact **house sale prices**.
-
-### 🔄 Workflow:
-- 🧹 **Data Cleaning** with Tableau Prep
-- 📊 **Data Visualization** using Tableau Public
-- 🚀 **Deployment** using Flask + Render
+- Interactive Tableau Dashboard  
+- Filters for home features (bedrooms, bathrooms, renovations)  
+- Story-based insights on pricing trends  
+- Web app deployed with Flask
 
 ---
 
-## 🔍 Features
+## 🌐 Live Website
 
-- 📊 KPI dashboards showing average price, count, and basement area  
-- 🏡 Visualizations for house age vs. features  
-- 🛠 Impact analysis of renovations  
-- 📈 Story views for clear decision-making  
-- 💻 Flask-based web interface to host and share dashboards  
+👉 [Visit Web App](https://visualizing-housing-market-trend.onrender.com/)
+
+---
+
+## 📊 Tableau Visualizations
+
+- 🔶 [View Dashboard](https://public.tableau.com/views/Dashboard_17509225202630/Dashboard4)  
+- 📘 [View Story View](https://public.tableau.com/app/profile/ghanta.saibabu/viz/story-1_17509334098390/Story3)
 
 ---
 
 ## 🛠 Tech Stack
 
-| Tool              | Purpose                                 |
-|-------------------|-----------------------------------------|
-| **Tableau Prep**  | Data cleaning & transformation          |
-| **Tableau Public**| Dashboard & story creation              |
-| **Python + Flask**| Web hosting & app routing               |
-| **Render**        | Cloud deployment of the web app         |
-| **GitHub**        | Version control & collaboration         |
+- **Tableau Prep & Public** – Data cleaning and visualization  
+- **Flask (Python)** – Web app framework  
+- **Render** – Deployment  
+- **GitHub** – Version control
 
 ---
 
-## 📸 Screenshots
-
-> Add relevant screenshots or GIFs here (you can drag & drop them from your system or use links)
-
----
-
-## 📂 Folder Structure
+## 📁 Project Structure
 
 ```bash
-Visualizing-Housing-Market-Trend/
-├── static/                  # Static files like CSS, JS
-├── templates/               # HTML templates
-├── app.py                   # Flask application
-├── README.md                # Project documentation
-└── requirements.txt         # Python dependencies
+├── app.py              # Flask app
+├── static/             # CSS, JS
+├── templates/          # HTML files
+├── requirements.txt    # Python dependencies
+├── README.md           # Project info
