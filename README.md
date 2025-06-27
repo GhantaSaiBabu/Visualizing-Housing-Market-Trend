@@ -6,49 +6,84 @@
 
 ---
 
-## 📌 Overview
+## 📌 Project Overview
 
-This project analyzes how house features such as renovation status, number of bedrooms, bathrooms, and age affect sale prices.  
-Developed as part of the **SmartBridge x AICTE SmartIntern 2025** program using **Tableau**, **Python (Flask)**, and **Render**.
+This project uncovers insights into housing sales by analyzing key home features such as:
+- 🧱 Renovation status
+- 🛁 Number of bathrooms
+- 🛏️ Bedrooms
+- 🧭 Floors
+- 📅 House age
+
+Developed during the **SmartBridge x AICTE SmartIntern 2025** program in the **Data Analytics with Tableau** domain.
 
 ---
 
 ## 🔍 Key Features
 
-- Interactive Tableau Dashboard  
-- Filters for home features (bedrooms, bathrooms, renovations)  
-- Story-based insights on pricing trends  
-- Web app deployed with Flask
+- 📊 Interactive Tableau dashboards  
+- 🧱 House age and feature-based price analysis  
+- 🛠 Renovation impact comparisons  
+- 📈 Story view for step-by-step decision-making  
+- 💻 Flask-based responsive web app
 
 ---
 
-## 🌐 Live Website
+## 🌐 Website Access
 
-👉 [Visit Web App](https://visualizing-housing-market-trend.onrender.com/)
+Explore the project live:  
+👉 [Live Web App](https://visualizing-housing-market-trend.onrender.com/)
 
 ---
 
-## 📊 Tableau Visualizations
+## 📊 Data Visualization
 
-- 🔶 [View Dashboard](https://public.tableau.com/views/Dashboard_17509225202630/Dashboard4)  
-- 📘 [View Story View](https://public.tableau.com/app/profile/ghanta.saibabu/viz/story-1_17509334098390/Story3)
+### Tableau Dashboard  
+🔗 [View Dashboard](https://public.tableau.com/views/Dashboard_17509225202630/Dashboard4)
+
+**Interactive Insights**:
+- Average sale price and basement area  
+- Filters: Bedrooms, Bathrooms, Renovation  
+- House age vs. pricing correlations  
+- Click-through visual analytics
+
+> *Requires Tableau Public account to interact.*
+
+---
+
+## 📖 Tableau Story: Housing Trends Explained
+
+🔗 [View Story View](https://public.tableau.com/app/profile/ghanta.saibabu/viz/story-1_17509334098390/Story3)
+
+**Narrative Highlights**:
+- Evolution of home pricing by age and features  
+- Renovated vs. non-renovated home trends  
+- Feature-based drill-down: bedrooms, bathrooms, floors  
+- Story-guided walkthrough of key findings
+
+> *Best viewed in full-screen mode.*
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Tableau Prep & Public** – Data cleaning and visualization  
-- **Flask (Python)** – Web app framework  
-- **Render** – Deployment  
-- **GitHub** – Version control
+| Tool               | Purpose                           |
+|--------------------|-----------------------------------|
+| **Tableau Prep**    | Data cleaning and shaping         |
+| **Tableau Public**  | Dashboards and storytelling       |
+| **Python + Flask**  | Backend web application           |
+| **Render**          | Hosting and deployment            |
+| **GitHub**          | Version control and collaboration |
 
 ---
 
-## 📁 Project Structure
+## 📁 Folder Structure
 
 ```bash
-├── app.py              # Flask app
-├── static/             # CSS, JS
-├── templates/          # HTML files
+Visualizing-Housing-Market-Trend/
+├── app.py              # Flask main app
+├── templates/          # HTML templates
+├── static/             # CSS, JS, assets
 ├── requirements.txt    # Python dependencies
-├── README.md           # Project info
+├── README.md           # Project documentation
+└── LICENSE             # MIT License
